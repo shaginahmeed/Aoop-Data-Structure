@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.intro.mapController">
+   <children>
+      <ImageView fitHeight="410.0" fitWidth="630.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@map.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lv1" layoutX="154.0" layoutY="183.0" prefHeight="16.0" prefWidth="89.0" text="Level 1" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ship1" fitHeight="46.0" fitWidth="50.0" layoutX="108.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ship.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lv2" layoutX="154.0" layoutY="65.0" text="Level 2" textFill="RED">
+         <font>
+            <Font name="Lucida Console" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ship2" fitHeight="46.0" fitWidth="55.0" layoutX="108.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ship.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lv3" layoutX="285.0" layoutY="36.0" prefHeight="14.0" prefWidth="55.0" text="Level 3">
+         <font>
+            <Font name="Lucida Console" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ship3" fitHeight="55.0" fitWidth="46.0" layoutX="248.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ship.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lv4" layoutX="319.0" layoutY="169.0" text="Level 4" textFill="RED">
+         <font>
+            <Font name="Lucida Console" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ship4" fitHeight="46.0" fitWidth="46.0" layoutX="358.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ship.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lv5" layoutX="447.0" layoutY="102.0" text="Level 5" textFill="#040404">
+         <font>
+            <Font name="Lucida Console" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ship5" fitHeight="46.0" fitWidth="55.0" layoutX="493.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ship.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lv6" layoutX="447.0" layoutY="315.0" text="Level 6" textFill="RED">
+         <font>
+            <Font name="Lucida Console" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ship6" fitHeight="46.0" fitWidth="55.0" layoutX="452.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ship.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="luffy" fitHeight="271.0" fitWidth="269.0" layoutX="160.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@luffy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dialouge" fitHeight="167.0" fitWidth="192.0" layoutX="108.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dialougeBox.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="dialougetext" blendMode="MULTIPLY" layoutX="154.0" layoutY="74.0" prefHeight="59.0" prefWidth="96.0" text="Are you ready for your first challenge " wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="9.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="pressEnter" layoutX="166.0" layoutY="56.0" text="Press ENTER" textFill="RED" />
+   </children>
+</AnchorPane>

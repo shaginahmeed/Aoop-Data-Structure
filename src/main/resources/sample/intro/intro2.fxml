@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="505.0" prefWidth="714.0" stylesheets="@styleSheets/intro2.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.intro.intro2Controller">
+   <children>
+      <ImageView fitHeight="508.0" fitWidth="714.0">
+         <image>
+            <Image url="@intro2back.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="luffy" fitHeight="293.0" fitWidth="339.0" layoutX="375.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@luffy.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dialouge" fitHeight="312.0" fitWidth="390.0" layoutX="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dialougeBox.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="dialougetext" blendMode="MULTIPLY" layoutX="343.0" layoutY="82.0" prefHeight="96.0" prefWidth="218.0" text="Hello my name is Monkey D Luffy !!!            Welcome, adventurer, to the boundless world of Data Seas: Quest for Knowledge" wrapText="true">
+         <font>
+            <Font name="Lucida Console" size="11.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
